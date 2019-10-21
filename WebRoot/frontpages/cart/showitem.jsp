@@ -58,11 +58,11 @@
 <c:forEach items="${cartItemList }" var="cartItem">
 	<tr align="center">
 		<td align="right">
-			<a class="linkImage" href="<c:url value='/frontpages/book/desc.jsp'/>">
+			<a class="linkImage" href="<c:url value='/BookServlet?method=load&bid=${cartItem.book.bid }'/>">
 			<img border="0" width="54" align="top" src="<c:url value='/${cartItem.book.image_w }'/>"/></a>
 		</td>
 		<td align="left">
-			<a href="<c:url value='/frontpages/book/desc.jsp'/>"><span>${cartItem.book.bname }</span></a>
+			<a href="<c:url value='/BookServlet?method=load&bid=${cartItem.book.bid }'/>"><span>${cartItem.book.bname }</span></a>
 		</td>
 		<td>&yen;${cartItem.book.currPrice }</td>
 		<td>${cartItem.quantity }</td>
