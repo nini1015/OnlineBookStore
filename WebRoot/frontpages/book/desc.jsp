@@ -74,8 +74,8 @@
 				<input type="hidden" name="method" value="add"/>
 				<input type="hidden" name="bid" value="${book.bid }"/>
   				我要买：<input id="cnt" style="width: 40px;text-align: center;" type="text" name="quantity" value="1"/>件&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input name="joinshoppingcart" type="submit"href="javascript:$('#form1').submit();"value="立即购买" style="color:#FAFFFF;background-color: #db2a41"/>
 				<input name="joinshoppingcart" type="submit"href="javascript:$('#form1').submit();"value="加入购物车" style="color:#FAFFFF;background-color: #db2a41"/>
 			</form>
 			<!--<a id="btn" href="javascript:$('#form1').submit();">加入购物车</a>-->
